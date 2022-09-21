@@ -4,15 +4,15 @@ sub3 = eval(input("enter the marks of subject 3 = "))
 percentage = ((sub3 + sub2 + sub1)*100)/300
 print("your percentage = " + str(percentage))
 
-if percentage>=95:
+if percentage>=90:
     print(" grade = A+")
-elif percentage<95 and percentage>=85:
+elif percentage<90 and percentage>=80:
     print("grade = A")
-elif percentage<85 and percentage>=75:
+elif percentage<80 and percentage>=70:
     print("grade = B")
-elif percentage<75 and percentage>=65:
+elif percentage<70 and percentage>=60:
     print("grade = C")
-elif percentage<65 and percentage>=55:
+elif percentage<60 and percentage>=50:
     print("grade = D")
 else:
     print("fail")
